@@ -1,0 +1,20 @@
+{
+  "name": "36leads",
+  "interface": {
+    "displayName": "36leads"
+  },
+  "plugins": [
+    {
+      "name": "36leads",
+      "source": {
+        "source": "local",
+        "path": "./plugins/36leads"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

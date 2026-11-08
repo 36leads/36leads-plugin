@@ -1,0 +1,34 @@
+{
+  "name": "36leads",
+  "version": "0.1.0",
+  "description": "Neue Kunden finden: Zielfirmen und Ansprechpartner mit geschäftlicher E-Mail und LinkedIn-Profil, über dein 36leads-Konto.",
+  "author": {
+    "name": "36leads",
+    "url": "https://36leads.io"
+  },
+  "homepage": "https://36leads.io",
+  "license": "UNLICENSED",
+  "keywords": [
+    "kunden-finden",
+    "kontaktsuche",
+    "b2b",
+    "sales"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "36leads",
+    "shortDescription": "Neue Kunden finden und prüfen",
+    "developerName": "36leads",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://36leads.io",
+    "defaultPrompt": [
+      "Finde mit 36leads neue Kunden für mein Angebot.",
+      "Finde mit 36leads die richtigen Ansprechpartner bei einer Firma."
+    ]
+  }
+}

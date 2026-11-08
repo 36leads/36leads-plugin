@@ -1,0 +1,17 @@
+{
+  "name": "36leads",
+  "owner": {
+    "name": "36leads",
+    "url": "https://36leads.io"
+  },
+  "plugins": [
+    {
+      "name": "36leads",
+      "source": "./plugins/36leads",
+      "description": "Zielfirmen und Ansprechpartner mit geschäftlicher E-Mail und LinkedIn-Profil, über dein 36leads-Konto."
+    }
+  ],
+  "metadata": {
+    "description": "36leads für Claude: neue Kunden finden."
+  }
+}

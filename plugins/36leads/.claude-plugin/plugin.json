@@ -1,0 +1,9 @@
+{
+  "name": "36leads",
+  "displayName": "36leads",
+  "version": "0.1.0",
+  "description": "Neue Kunden finden: Zielfirmen und Ansprechpartner mit geschäftlicher E-Mail und LinkedIn-Profil, über dein 36leads-Konto.",
+  "author": { "name": "36leads", "url": "https://36leads.io" },
+  "homepage": "https://36leads.io",
+  "license": "UNLICENSED"
+}

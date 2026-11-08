@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "36leads": {
+      "type": "http",
+      "url": "https://app.36leads.io/api/mcp/mcp"
+    }
+  }
+}
