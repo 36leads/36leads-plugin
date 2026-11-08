@@ -1,0 +1,13 @@
+interface:
+  display_name: "36leads: Find customers"
+  short_description: "Find and verify new customers"
+  default_prompt: "Use $find-customers to find new customers and verified contacts with 36leads."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "36leads"
+      description: "36leads MCP server (company search, contact search, verification, campaign)"
+      transport: "streamable_http"
+      url: "https://app.36leads.io/api/mcp/mcp"

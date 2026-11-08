@@ -8,10 +8,10 @@
     {
       "name": "36leads",
       "source": "./plugins/36leads",
-      "description": "Zielfirmen und Ansprechpartner mit geschäftlicher E-Mail und LinkedIn-Profil, über dein 36leads-Konto."
+      "description": "Target companies and contacts with a business email and LinkedIn profile, through your 36leads account."
     }
   ],
   "metadata": {
-    "description": "36leads für Claude: neue Kunden finden."
+    "description": "36leads for Claude: find new customers."
   }
 }

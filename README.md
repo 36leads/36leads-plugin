@@ -1,8 +1,8 @@
 # 36leads
 
-Findet neue Kunden: klärt den idealen Kunden, findet Zielfirmen und Ansprechpartner und übernimmt sie in eine 36leads-Kampagne, direkt im Chat mit Claude oder Codex.
+Finds new customers: clarifies your ideal customer, finds target companies and contacts, and adds them to a 36leads campaign, right in your chat with Claude or Codex.
 
-Voraussetzung ist ein [36leads](https://36leads.io)-Konto mit aktiver Kontaktsuche.
+Requires a [36leads](https://36leads.io) account with contact search enabled.
 
 ## Installation
 
@@ -13,7 +13,7 @@ claude plugin marketplace add 36leads/36leads-plugin
 claude plugin install 36leads@36leads
 ```
 
-Beim ersten Aufruf meldest du dich mit deinem 36leads-Konto an.
+Sign in with your 36leads account on first use.
 
 **Codex**
 
@@ -24,12 +24,12 @@ codex mcp add 36leads --url https://app.36leads.io/api/mcp/mcp
 codex mcp login 36leads
 ```
 
-Danach eine neue Sitzung starten.
+Then start a new session.
 
-## Nutzung
+## Usage
 
-Sag, dass du mehr Kunden suchst, oder nenne direkt Firmen oder Personen. Der Assistent nutzt, was in deinem Projektordner schon über dein Angebot steht, und arbeitet über dein 36leads-Konto.
+Say that you are looking for more customers, or name companies or people directly. The assistant uses what your project folder already says about your offer and works through your 36leads account.
 
-## Daten
+## Data
 
-Das Plugin liest im aktuellen Projektordner Angaben zu deinem Angebot und deinen Kunden. Es sendet Zielbild, Firmen und Personen über `https://app.36leads.io/api/mcp/mcp` an dein 36leads-Konto. Die Anmeldung läuft über OAuth, das Plugin enthält keine Zugangsdaten.
+The plugin reads information about your offer and your customers in the current project folder. It sends your target profile, companies and people to your 36leads account via `https://app.36leads.io/api/mcp/mcp`. Sign-in uses OAuth; the plugin contains no credentials.
