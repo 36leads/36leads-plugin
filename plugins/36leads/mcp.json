@@ -3,12 +3,7 @@
   "mcpServers": {
     "36leads": {
       "type": "streamable-http",
-      "url": "https://app.36leads.io/api/mcp/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": { "type": "oauth" }
-        }
-      }
+      "url": "https://app.36leads.io/api/mcp/mcp"
     }
   }
 }
